@@ -1,0 +1,28 @@
+# MANIFEST.in for VegLib
+
+# Include important files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include pyproject.toml
+
+# Include documentation
+recursive-include docs *.md *.rst *.txt *.py
+recursive-include docs *.png *.jpg *.svg
+
+# Include examples and data
+recursive-include examples *.py *.ipynb *.md
+recursive-include examples/data *.csv *.txt *.json
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude unnecessary files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__/*
+global-exclude .git/*
+global-exclude .pytest_cache/*
+global-exclude *.so
+global-exclude .DS_Store
