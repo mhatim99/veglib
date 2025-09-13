@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to VegLib! This document provides guidelines for contributing to the project.
 
-## 🎯 Ways to Contribute
+## Ways to Contribute
 
 - **Bug Reports**: Report bugs through GitHub issues
 - **Feature Requests**: Suggest new functionality
@@ -11,7 +11,7 @@ Thank you for your interest in contributing to VegLib! This document provides gu
 - **Testing**: Add tests for existing functionality
 - **Academic Collaboration**: Contribute ecological methods and algorithms
 
-## 🐛 Reporting Bugs
+## Reporting Bugs
 
 When reporting bugs, please include:
 
@@ -51,7 +51,7 @@ What actually happened.
 ```
 ```
 
-## 💡 Feature Requests
+## Feature Requests
 
 For new features, please:
 
@@ -86,7 +86,7 @@ How might this feature be implemented?
 How does this affect existing code?
 ```
 
-## 🔧 Development Setup
+## Development Setup
 
 ### 1. Fork and Clone
 
@@ -109,7 +109,7 @@ pip install -e ".[dev,spatial,remote-sensing,fuzzy,interactive]"
 pre-commit install
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ### Run All Tests
 ```bash
@@ -130,7 +130,7 @@ pytest -m "plotting"                        # Only plotting tests
 pytest --cov=veglib --cov-report=html
 ```
 
-## 📝 Code Style
+## Code Style
 
 We use Black for code formatting and follow PEP 8 guidelines.
 
@@ -149,7 +149,7 @@ flake8 veglib/
 mypy veglib/
 ```
 
-## 📚 Documentation
+## Documentation
 
 ### Building Documentation
 ```bash
@@ -213,7 +213,7 @@ def my_function(data: pd.DataFrame, parameter: str = 'default') -> Dict[str, Any
     """
 ```
 
-## 🧬 Contributing Ecological Methods
+## Contributing Ecological Methods
 
 When contributing new ecological methods:
 
@@ -234,7 +234,7 @@ When contributing new ecological methods:
 - **Interpretation guidelines**: Help users understand results
 - **Literature references**: Cite original papers
 
-## 🔄 Pull Request Process
+## Pull Request Process
 
 ### 1. Before Submitting
 - [ ] Tests pass locally
@@ -276,7 +276,7 @@ Fixes #(issue number)
 ## Screenshots (if applicable)
 ```
 
-## 🌿 Ecological Code Review Criteria
+## Ecological Code Review Criteria
 
 When reviewing ecological code contributions:
 
@@ -304,7 +304,7 @@ When reviewing ecological code contributions:
 - [ ] Ecological interpretation explained
 - [ ] Literature references included
 
-## 🎓 Academic Collaboration
+## Academic Collaboration
 
 We welcome collaborations with researchers and academics:
 
@@ -324,14 +324,14 @@ We welcome collaborations with researchers and academics:
 - Email: [research collaboration email]
 - Create a GitHub discussion for public collaboration ideas
 
-## 📞 Getting Help
+## Getting Help
 
 - **GitHub Discussions**: For general questions and ideas
 - **GitHub Issues**: For bugs and feature requests
 - **Email**: For private inquiries
 - **Documentation**: Check docs first
 
-## 🏆 Recognition
+## Recognition
 
 Contributors will be recognized in:
 - CONTRIBUTORS.md file
@@ -339,10 +339,10 @@ Contributors will be recognized in:
 - Academic publications where appropriate
 - Conference presentations
 
-## 📜 Code of Conduct
+## Code of Conduct
 
-Please be respectful and constructive in all interactions. We aim to create a welcoming environment for all contributors, regardless of background or experience level.
+Please be respectful and constructive in all interactions. I aim to create a welcoming environment for all contributors, regardless of background or experience level.
 
 ---
 
-Thank you for contributing to VegLib and advancing ecological data analysis tools! 🌱
+Thank you for contributing to VegLib and advancing ecological data analysis tools!
